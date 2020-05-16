@@ -12,8 +12,8 @@ class PhoneNumber {
     if (input.length==11 && input.startsWith('1')) {
       input = input.substring(1);
     }
-    //If the length of the number is less than 9 return null, this is not
-    //a valid input
+    //If the length of the number is not 10, this is not
+    //a valid input. Return null.
       if (input.length!=10) {
         return null;
       }
