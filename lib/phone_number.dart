@@ -21,7 +21,7 @@ class PhoneNumber {
       //This applies to an input number that has already been processed by the
     //strip() function and is the appropriate length. This returns null if the
     //area code starts with a 1 or 0 by checking the first element of the string
-    //and also returns null if the escape code is 1 or 0 by checking the third element
+    //and also returns null if the exchange code is 1 or 0 by checking the third element
     //of the string
       if (['0', '1'].contains(input[0]) || ['0', '1'].contains(input[3])) return null;
 
